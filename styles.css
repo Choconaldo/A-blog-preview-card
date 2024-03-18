@@ -21,9 +21,9 @@
 	--fw-1: 500;
 	--fw-2: 800;
 
-	--fs-1: 14px;
-	--fs-2: 16px;
-	--fs-3: 24px;
+	--fs-1: 12px;
+	--fs-2: 14px;
+	--fs-3: 20px;
 
 	--xs-container-width: 92%; /* < 640px */
 	--small-container-width: 608px; /* >=640px */
@@ -43,10 +43,10 @@ main {
 
 .card-body {
 	width: 327px;
-	border: 1px solid var(--color-1);
+	border: 1.5px solid var(--color-1);
 	border-radius: 20px;
 	background-color: var(--color-2);
-	box-shadow: 10px 10px var(--color-1);
+	box-shadow: 9px 9px var(--color-1);
 	padding: 24px;
 }
 
@@ -57,10 +57,9 @@ main {
 	object-fit: cover;
 }
 
-.card-text-content {
+.card-content {
 	margin: 24px 0;
 	font-family: var(--ff-figtree);
-	border: 1px solid red;
 }
 
 .card-content-theme {
@@ -72,4 +71,33 @@ main {
 	line-height: 1.5;
 	color: var(--color-1);
 	border-radius: 4px;
+}
+
+.card-content-date {
+	margin: 12px 0;
+	font-size: var(--fs-1);
+	font-weight: var(--fw-1);
+	line-height: 1.5;
+	color: var(--color-1);
+}
+
+.card-content-title {
+	margin: 12px 0;
+	font-size: var(--fs-3);
+	font-weight: var(--fw-2);
+	line-height: 1.5;
+	color: var(--color-1);
+}
+
+.card-content-title:hover {
+	color: var(--color-3);
+	cursor: pointer;
+}
+
+.card-content-text {
+	margin: 12px 0 24px 0;
+	font-size: var(--fs-2);
+	font-weight: var(--fw-1);
+	line-height: 1.5;
+	color: var(--color-4);
 }
