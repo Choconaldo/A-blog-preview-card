@@ -16,4 +16,5 @@
 .prettierignore
 
 # Extra temporary
-*.md
+README1.md
+style-guide.md
